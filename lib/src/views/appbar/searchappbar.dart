@@ -104,9 +104,7 @@ class _SearchAppBarState extends State<SearchAppBar> {
             height: 2,
             color: _searchBackgroundColor,
           ),
-          _tabProvider.tabType == GiphyType.emoji
-              ? Container(height: 40.0, child: _giphyLogo())
-              : Container(
+          Container(
                   height: 40.0,
                   child: Center(
                     child: ClipRRect(
