@@ -121,7 +121,7 @@ class _SearchAppBarState extends State<SearchAppBar> {
                         decoration: InputDecoration(
                             filled: true,
                             fillColor: Colors.grey[200],
-                            prefixIcon: _searchIcon(),
+                            prefixIcon: Icon(Icons.search),
                             hintStyle: TextStyle(color: Colors.black45),
                             hintText: _tabProvider.searchText,
                             focusedBorder: InputBorder.none,
