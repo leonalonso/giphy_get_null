@@ -123,8 +123,7 @@ class _SearchAppBarState extends State<SearchAppBar> {
                             prefixIcon: _searchIcon(),
                             hintStyle: TextStyle(color: Colors.black45),
                             hintText: _tabProvider.searchText,
-                            contentPadding: EdgeInsets.only(
-                                left: 15, bottom: 10.5, top: 10.5, right: 15),
+                           
                             focusedBorder: InputBorder.none,
                             enabledBorder: InputBorder.none,
                             errorBorder: InputBorder.none,
