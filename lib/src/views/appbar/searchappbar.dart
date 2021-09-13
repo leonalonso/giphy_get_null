@@ -112,6 +112,7 @@ class _SearchAppBarState extends State<SearchAppBar> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(10),
                       child: TextField(
+                        keyboardAppearance: Brightness.light,
                         autofocus: _sheetProvider.initialExtent ==
                             SheetProvider.maxExtent,
                         focusNode: _focus,
@@ -123,7 +124,6 @@ class _SearchAppBarState extends State<SearchAppBar> {
                             prefixIcon: _searchIcon(),
                             hintStyle: TextStyle(color: Colors.black45),
                             hintText: _tabProvider.searchText,
-                           
                             focusedBorder: InputBorder.none,
                             enabledBorder: InputBorder.none,
                             errorBorder: InputBorder.none,
